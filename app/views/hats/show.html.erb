@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Style:</strong>
+  <%= @hat.style %>
+</p>
+
+<p>
+  <strong>Material:</strong>
+  <%= @hat.material %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @hat.color %>
+</p>
+
+<%= link_to 'Edit', edit_hat_path(@hat) %> |
+<%= link_to 'Back', hats_path %>

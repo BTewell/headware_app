@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :users
+  resources :hats
   # EXAMPLE HTML ROUTE
   # get "/photos" => "photos#index"
 
